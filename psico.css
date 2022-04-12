@@ -7,29 +7,33 @@
     padding: 0rem;
 }
 .nav-li1{
-        height: 9rem;
+        height: 10rem;
         justify-content: space-between;
-        align-items: center;
-        max-width: 0rem;
+        align-items:center;
+        max-width: 10rem;
+        display: contents;
+        font-size: 2.5rem;
 }
 
 .talkit{
-        max-height: 50%;
-        max-width: 50%;
+        max-height: 10rem;
+        max-width: 10rem;
+        align-items: center;
         
 }
 .nav-bar1 {
     color: #306;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0 1.75rem;
     height: 100%;
+    width: fit-content;
     font-family: Montserrat,sans-serif;
     text-rendering: optimizeSpeed;
 }
 .logIn-v2{
         border-radius: 3.7rem;
         height: 3.7rem;
-        font-size: 1.3rem;
+        font-size: 0.8rem;
         border: none;
         color: #306;
         font-weight: 500;
@@ -37,7 +41,6 @@
         border: .2rem solid transparent;
         background: linear-gradient(#eaf1f6,#eaf1f6) padding-box,linear-gradient(90deg,#eca586 1%,#ed197e 50%,#7e4098 100%) border-box;
         padding: 0 2rem;
-        display: flex;
         align-items: center;
         justify-content: center;
         max-width: 140px;
@@ -54,9 +57,9 @@
         background: #330066;
         border: .2rem solid transparent;
         background: #41B312;
-        margin: 0 0 0 1.8rem;
-        padding: 0 2rem;
-        display: flex;
+        margin: 0rem;
+        padding: 1rem;
+        display: flexbox;
         align-items: center;
         justify-content: center;
         max-width: 116px;
