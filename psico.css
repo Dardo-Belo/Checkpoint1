@@ -65,3 +65,10 @@
             align-items: center;
             display: flex;
     }
+    .mensaje3{
+        font-size: 3rem;
+        font-weight: 700;
+        color: #306;
+        line-height: normal;
+        text-align: center;
+    }
