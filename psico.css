@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #eaf1f6;
 }
 .container1{
     color: #306;
@@ -27,11 +28,15 @@
     font-weight: bolder;
     text-decoration: none;
     }
+.col{
+    display: flex;
+    align-items: center;
+    align-content:space-between;
+}
+
 /*logo caracters = talkit*/
 
 .talkit{
-        height: auto;
-        width: auto;
         display: flex;
         align-items: center;         
 }
@@ -79,7 +84,7 @@
        color: white;
        font-family: Montserrat, sans-serif;
        top: 20%;
-       left: 7.5%;
+       left: 9%;
     }
     .carousel-inner p1{
         font-weight: bold;
@@ -88,12 +93,12 @@
         color: rgb(74, 19, 146);
         font-family: Montserrat, sans-serif;
         top: 45%;
-        left: 7.5%;
+        left: 9%;
      }
      .carousel-inner p2{
         position: absolute;
         top: 60%;
-        left: 7.5%;
+        left: 9%;
      }
      .carousel-inner p3{
         position: absolute;
