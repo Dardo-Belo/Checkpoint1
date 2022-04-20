@@ -1,45 +1,31 @@
-.nav-li{
-    background-color: #eaf1f6;
-    margin: 0rem;
-    padding: 0rem;
+/*Barra de inicio*/
+.container-fluid{
     display: flex;
-    height: auto;
-    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaf1f6;
 }
 
-.container{
-    max-width: auto;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #eaf1f6;
+.col-2{
+        display: flex;
+        align-items:center;
+        justify-content: end;
 }
+.col-10{
+    display: flex;
+    align-items:flex-end;
+    align-content: space-between;
+
+}
+
 .container1{
     color: #306;
-    margin: .7rem;
-    height: auto;
-    max-width:max-content;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 1.3rem;
     font-family: Montserrat,sans-serif;
     font-size: small;
     font-weight: bolder;
     text-decoration: none;
     }
-.col{
-    display: flex;
-    align-items: center;
-    align-content:space-between;
-}
-
-/*logo caracters = talkit*/
-
-.talkit{
-        display: flex;
-        align-items: center;         
-}
 /*botón Ingresar*/
 .logIn-v2{
         border-radius: 3.7rem;
@@ -52,7 +38,7 @@
         align-items: center;
         justify-content: center;
         max-width: 100px;
-        margin: 0rem;
+        margin: 1.3rem;
         text-decoration: none;
     }
 /*botón REGISTRATE*/
@@ -64,13 +50,13 @@
     background: #330066;
     border: -4.8rem solid transparent;
     background: #41B312;
-    margin: 0rem;
+    margin: 1.3rem;
     padding: 0rem;
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 140px;
-    margin: 0rem;
+    
     font-size: auto;
     max-width: auto;
     text-decoration: none;
@@ -95,10 +81,24 @@
         top: 45%;
         left: 9%;
      }
-     .carousel-inner p2{
+     .carousel-inner a{
         position: absolute;
         top: 60%;
         left: 9%;
+        border-radius: 3.7rem;
+        height: 2rem;
+        border: none;
+        color: #fff;
+        background: #330066;
+        border: -4.8rem solid transparent;
+        background: #41B312;
+        margin: 1.3rem;
+        padding: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 140px;
+        text-decoration: none;
      }
      .carousel-inner p3{
         position: absolute;
@@ -127,4 +127,3 @@
         line-height: normal;
         text-align: center;
     }
-  
