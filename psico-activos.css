@@ -1,0 +1,13 @@
+/*registro*/
+
+/*Imágenes del fondo*/
+.fondo{
+    position: absolute;
+    top: auto;
+    right: 10%;
+}
+.img-fondo{
+    position: absolute;
+    top: auto;
+    right: 30%;
+}
