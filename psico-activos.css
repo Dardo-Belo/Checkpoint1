@@ -1,13 +1,42 @@
 /*registro*/
 
-/*Imágenes del fondo*/
-.fondo{
+
+/* Logo TALKIT en Registro*/
+
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+.volver{
+    color:rgb(214, 39, 127);
+    text-decoration: none;
+    font-size: 1.0rem;
     position: absolute;
-    top: auto;
-    right: 10%;
+    top:10%;
+    font-family: Montserrat, sans-serif;
+}
+.col-9{
+    display: flex;
+    align-items:flex-end;
+    align-content: space-between;
+    justify-content: center;
+    position: absolute;
+    top:15%;
+}
+/*Imagen de fondo*/
+.col-6a{
+    display: flex;
+    align-items:center;
+    align-content: space-between;
+    justify-content:center;
 }
 .img-fondo{
     position: absolute;
-    top: auto;
-    right: 30%;
+    top: 15%;
+    right: 15%;
+}
+.fondo{
+    position: absolute;
+    top: 0%;
+    right: 0%;
 }
