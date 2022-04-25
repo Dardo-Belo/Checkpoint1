@@ -2,10 +2,16 @@
 .container-fluid{
     background-color: #eaf1f6;
 }
-
+/*Barra de inicio - Logo de Talkit*/
+.talkit-logo{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+/*Barra de inicio - HOME hasta REGISTRATE*/
 .col-3{
         display: flex;
-        align-items:center;
+        align-items: center;
         justify-content: end;
 }
 .col-9{
@@ -17,7 +23,7 @@
 
 .container1{
     color: #306;
-    margin: 1.3rem;
+    margin: 1.2rem;
     font-family: Montserrat,sans-serif;
     font-size: small;
     font-weight: bolder;
@@ -150,4 +156,39 @@
         color: #306;
         line-height: normal;
         text-align: center;
+    }
+    /*--DESCUBRÍ TODAS LAS HERRAMIENTAS DE NUESTRA PLATAFORMA-->*/
+     /*--Frase introductoria-->*/
+    .herramientas-plataforma{
+        margin: 3rem;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #306;
+        line-height: normal;
+        text-align: center;
+    }
+
+    /*Formato de las cards*/
+    .card{
+        border-collapse: collapse;
+    }
+
+    /*--Titulos de las cards--*/
+    .title-card{
+        color:#306;
+        font-family: Montserrat, sans-serif;
+        font-size:medium;
+    }
+
+    /*texto de las cards*/
+    .text-cards{
+        text-align: justify;
+    }
+
+    /*Botón Ver más*/
+    .buttom-ver-mas{
+        font-size:small;
+        color: #ed197e;
+        text-decoration: none;
+        text-decoration: bolder;
     }
