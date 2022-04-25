@@ -1,5 +1,14 @@
 /*registro*/
-
+.container{
+    font-family: montserrat, sans-serif;
+    display: flex;
+}
+.col-12{
+    display: flex;
+    align-items:flex-end;
+    align-content: space-between;
+    justify-content: center;
+}
 
 /* Logo TALKIT en Registro*/
 
@@ -11,17 +20,15 @@
     color:rgb(214, 39, 127);
     text-decoration: none;
     font-size: 1.0rem;
-    position: absolute;
-    top:10%;
-    font-family: Montserrat, sans-serif;
-}
-.col-9{
     display: flex;
-    align-items:flex-end;
-    align-content: space-between;
-    justify-content: center;
-    position: absolute;
-    top:15%;
+    flex-direction: column;
+    font-family: Montserrat, sans-serif;
+    margin:auto;
+}
+
+/* Texto :Creá tu cuenta*/
+.text-cuenta{
+    color: rgb(57, 2, 112);
 }
 /*Imagen de fondo*/
 .col-6a{
