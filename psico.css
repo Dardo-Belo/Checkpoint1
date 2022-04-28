@@ -139,6 +139,28 @@
       top: 52.5%;
       left: 9%;
   }
+
+  /*Barra inferior al carrousel*/
+.navbar{
+    font-family: Montserrat, sans-serif;
+    background-color: #330066;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.text-proba-ahora{
+    border: .1rem solid white;
+    border-radius: 3.7rem;
+    height:2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+margin: 0.3rem;
+}
+
 /*Registrate y tomá tus sesiones de terapia de manera 100% online...dar el primer paso?<br> físico y mental que necesitás.*/
 .carousel-inner p5{
     color: white;
@@ -171,6 +193,7 @@
     /*Formato de las cards*/
     .card{
         border-collapse: collapse;
+        border-style: none;
     }
 
     /*--Titulos de las cards--*/
