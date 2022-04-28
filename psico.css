@@ -179,6 +179,11 @@ margin: 0.3rem;
         line-height: normal;
         text-align: center;
     }
+    .imgvideo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     /*--DESCUBRÍ TODAS LAS HERRAMIENTAS DE NUESTRA PLATAFORMA-->*/
      /*--Frase introductoria-->*/
     .herramientas-plataforma{
